@@ -1,0 +1,10 @@
+{
+  "$schema": "https://rork.com/schema/rork.json",
+  "apps": [
+    {
+      "name": "Bai Jun Basuta AR",
+      "path": "ios",
+      "framework": "swift"
+    }
+  ]
+}

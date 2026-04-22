@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+  }
+
+  .canvas {
+    position: relative;
+    width: 1284px;
+    height: 2778px;
+    overflow: hidden;
+  }
+
+  .background {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 0;
+  }
+
+  .background img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .headline-wrapper {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 80%;
+    height: 26%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 20;
+  }
+
+  .headline {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 900;
+    font-size: 128px;
+    color: #FFFFFF;
+    line-height: 1.2;
+    text-shadow:
+      0 0 40px rgba(0, 0, 0, 0.8),
+      0 4px 24px rgba(0, 0, 0, 0.9),
+      0 8px 40px rgba(0, 0, 0, 0.7),
+      0 0 80px rgba(20, 80, 90, 0.6);
+    letter-spacing: -0.01em;
+  }
+
+  .device-wrapper {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 86%;
+    transform: translateX(-50%) translateY(6%);
+    z-index: 10;
+  }
+</style>
+</head>
+<body>
+<div class="canvas">
+
+  <!-- Background -->
+  <div class="background">
+    <img src="https://r2-pub.rork.com/app-store-screenshots/16e98604-796c-4974-97a7-1544ee110f77.png" draggable="false" alt="" />
+  </div>
+
+  <!-- Headline -->
+  <div class="headline-wrapper">
+    <div class="headline">よくできたね！<br>😊の笑顔で終了</div>
+  </div>
+
+  <!-- Device Mockup -->
+  <div class="device-wrapper">
+    <div style="position:relative; aspect-ratio:879/1832;">
+      <div style="position:absolute; overflow:hidden; left:4.32%; top:2.29%; width:91.47%; height:95.41%; border-radius:7.5% / 3.5%;">
+        <img src="screenshots/user/03_completion_result.png" style="display:block; width:100%; height:100%; object-fit:cover; object-position:top;" draggable="false" />
+      </div>
+      <img src="https://r2-pub.rork.com/static/iphone-mockups/iphone-17-pro-cosmic-orange.png" style="position:relative; z-index:10; display:block; width:100%; height:100%; pointer-events:none;" draggable="false" />
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

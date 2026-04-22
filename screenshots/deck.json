@@ -1,0 +1,40 @@
+{
+  "theme": {
+    "style": "ふわふわキャンディカラーのカワイイワールド。ラベンダー・ホットピンク・サンシャインイエローを軸にした温かみのあるパステルグラデーションで統一。丸みのあるバブル形状とやわらかなグロー光源が幼児に親しみやすいドリーミーでポップな雰囲気を演出する。全体的に明るく弾けるようなトーンで、保護者の安心感と子どものワクワク感を同時に引き出すビジュアル世界観。",
+    "headlineFont": "font-family: 'M PLUS Rounded 1c', sans-serif; @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap')",
+    "headlineFontSize": 128,
+    "mockupIds": {
+      "iphone": "cosmic-orange",
+      "ipad": "silver"
+    },
+    "palette": {
+      "primary": "#7C3FBE",
+      "secondary": "#FF6DB4",
+      "accent": "#FFD93D"
+    }
+  },
+  "slides": [
+    {
+      "label": "Start Screen",
+      "backgroundPrompt": "Abstract digital art featuring soft billowing silk ribbons sweeping diagonally across the frame in warm lavender, bubblegum pink, and creamy ivory, with scattered translucent bubble spheres catching gentle diffused light from the upper left. The composition is dreamy and airy with a soft glow emanating from the center, creating smooth gradient transitions from pale lavender at the top to warm blush pink at the bottom edge. Subtle frosted glass layers add delicate depth and texture, keeping the upper 30% calm and pale for text legibility. 8K quality, ultra smooth gradients, premium feel, no text, no letters, no UI elements, no device mockups",
+      "backgroundUrl": "https://r2-pub.rork.com/app-store-screenshots/c132c8da-529c-4176-ae96-5810f785f28a.png"
+    },
+    {
+      "label": "AR Camera",
+      "backgroundPrompt": "3D rendered scene of floating rounded orbs and flowing liquid blobs in vivid fuchsia pink, electric violet, and soft mint green drifting across a deep lavender-to-purple gradient field, lit dynamically from the lower right with energetic rim lighting. Translucent crystalline spheres overlap in the mid-frame while the upper region fades to a calm muted lavender haze for text overlay readability, smooth volumetric light diffusing through each bubble to create playful luminous depth. Soft bokeh halos ring each sphere adding a dreamy sparkle texture throughout the composition. 8K quality, ultra smooth gradients, premium feel, no text, no letters, no UI elements, no device mockups",
+      "backgroundUrl": "https://r2-pub.rork.com/app-store-screenshots/630d5c38-6780-4fa0-91dc-60061ddd3b27.png"
+    },
+    {
+      "label": "Completion Result",
+      "backgroundPrompt": "Abstract digital art of explosive starburst rays and scattered diamond-shaped sparks radiating outward in sunshine yellow, warm golden amber, and soft coral pink against a bright white-to-pastel-yellow gradient background, with soft prismatic light rings expanding concentrically from the lower center. The upper 30% remains gently pale and open while the lower frame bursts with warm radiant light and glittering prismatic particle trails creating a jubilant celebratory atmosphere. Fine bokeh circles of cream and gold float throughout adding layered depth and festive texture. 8K quality, ultra smooth gradients, premium feel, no text, no letters, no UI elements, no device mockups",
+      "backgroundUrl": "https://r2-pub.rork.com/app-store-screenshots/837c85b6-7191-4071-b540-e0d4ed18cdf2.png"
+    }
+  ],
+  "headlines": {
+    "ja": {
+      "Start Screen": "いますぐ<br>スタート",
+      "AR Camera": "ARで<br>シャカシャカ",
+      "Completion Result": "やったね<br>ピカピカ"
+    }
+  }
+}

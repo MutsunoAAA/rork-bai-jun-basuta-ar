@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+.canvas {
+  position: relative;
+  width: 1284px;
+  height: 2778px;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.headline-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 80%;
+  height: 26%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.headline {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 900;
+  font-size: 128px;
+  line-height: 1.25;
+  color: #1a1a1a;
+  text-shadow:
+    0 0 60px rgba(255, 255, 255, 0.9),
+    0 2px 8px rgba(255, 255, 255, 0.8),
+    0 4px 20px rgba(255, 255, 255, 0.6);
+  letter-spacing: -0.01em;
+}
+
+.device-wrapper {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 86%;
+  transform: translateX(-50%) translateY(6%);
+}
+</style>
+</head>
+<body>
+<div class="canvas">
+
+  <!-- Background -->
+  <img class="bg" src="https://r2-pub.rork.com/app-store-screenshots/a4e35dcb-787a-4b57-8aee-6f4d3785ca88.png" alt="" draggable="false" />
+
+  <!-- Headline -->
+  <div class="headline-wrapper">
+    <div class="headline">簡単操作で<br>すぐスタート！</div>
+  </div>
+
+  <!-- Device Mockup -->
+  <div class="device-wrapper">
+    <div style="position:relative; aspect-ratio:879/1832;">
+      <div style="position:absolute; overflow:hidden; left:4.32%; top:2.29%; width:91.47%; height:95.41%; border-radius:7.5% / 3.5%;">
+        <img src="screenshots/captures/iphone/01_start_screen.png" style="display:block; width:100%; height:100%; object-fit:cover; object-position:top;" draggable="false" />
+      </div>
+      <img src="https://r2-pub.rork.com/static/iphone-mockups/iphone-17-pro-cosmic-orange.png" style="position:relative; z-index:10; display:block; width:100%; height:100%; pointer-events:none;" draggable="false" />
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
