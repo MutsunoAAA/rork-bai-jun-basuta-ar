@@ -22,6 +22,28 @@ ul { padding-left: 1.2em; }
 a { color: #0277BD; }
 </style>
 </head>
+<h2>TrueDepth API および顔データの取り扱い / TrueDepth API and Face Data</h2>
+<p>
+本アプリは、ARKitの顔追跡機能（TrueDepth API）を使用して、ユーザーの口の開閉や表情をリアルタイムに検出します。
+取得した顔の特徴データは、ばい菌キャラクターを口元に表示するためだけに、端末内（オンデバイス）でのみ使用されます。
+</p>
+<ul>
+<li>顔データ・カメラ映像・口の動きの情報は、<strong>端末外に一切送信されません</strong>。</li>
+<li>顔データ・カメラ映像は、<strong>端末内にも保存されません</strong>。アプリ終了と同時に破棄されます。</li>
+<li>第三者と共有することはありません。広告・分析目的にも使用しません。</li>
+<li>顔認識データを個人の識別に使用することはありません。</li>
+</ul>
+
+<p>
+This app uses ARKit's face tracking feature (TrueDepth API) to detect the user's mouth movements and facial expressions in real time.
+The face data obtained is used solely on-device to display germ characters near the user's mouth.
+</p>
+<ul>
+<li>Face data, camera footage, and mouth movement information are <strong>never transmitted off the device</strong>.</li>
+<li>Face data and camera footage are <strong>not stored on the device</strong> and are discarded immediately when the app closes.</li>
+<li>This data is never shared with third parties and is not used for advertising or analytics.</li>
+<li>Face recognition data is never used to identify individuals.</li>
+</ul>
 <body>
 
 <h1>プライバシーポリシー</h1>
